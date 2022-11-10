@@ -1,4 +1,4 @@
-# Jude and Salome - Sustainability, Cost and Stability of the MOFs
+# Jude and Salomé - Sustainability, Cost and Stability of the MOFs
 
 CIFs_to_refcode_list.py
 
@@ -8,3 +8,7 @@ CSD_reader.py
 
 Contains functions f_to_str(formula) and write_annotations(annotation_csv_path, comps, metal_list).
 Reads in file of MOF refcodes and outputs data about the relevent MOFs into two seperate files: MOFdata.csv, containing structural data, and compositional_data.csv, containing elemental compositions.
+
+mof_score_generator.ip
+
+Reads the periodic table and the compositional_data.csv files to create a dataframe containning the cost ($/kg), supply risk, toxicity and radioactivity of the MOFs. It uses the chemical compositional composition of each MOF in compositional_data.csv. It creates dictionaries that are then converted into one dataframe

@@ -1,5 +1,6 @@
 # Jude and Salomé - Sustainability, Cost and Stability of the MOFs
 
+
 CIFs_to_refcode_list.py
 
 Used to convert a folder of CIF files returned from screening processes into a .GCD file containing a list of MOF refcodes that can be input into the CSD_reader.py code.
@@ -11,4 +12,8 @@ Reads in file of MOF refcodes and outputs data about the relevent MOFs into two 
 
 mof_score_generator.ip
 
-Reads the periodic table and the compositional_data.csv files to create a dataframe containning the cost ($/kg), supply risk, toxicity and radioactivity of the MOFs. It uses the chemical compositional composition of each MOF in compositional_data.csv. It creates dictionaries that are then converted into one dataframe
+Reads in files of the periodic table (with cost, supply risk, toxicity and radiactivity of each elements) and the compositional_data.csv to create a dataframe containning the cost ($/kg), supply risk, toxicity and radioactivity of the MOFs. It uses the chemical composition of each MOF in compositional_data.csv. It creates dictionaries that are then converted into one dataframe.
+
+Plots.ip
+
+

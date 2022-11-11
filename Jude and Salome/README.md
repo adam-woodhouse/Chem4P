@@ -1,8 +1,8 @@
 # Jude and Salomé - Sustainability, Cost and Stability of the MOFs
 
 
-CIFs_to_refcode_list.py
-
+**CIFs_to_refcode_list.py
+**
 Used to convert a folder of CIF files returned from screening processes into a .GCD file containing a list of MOF refcodes that can be input into the CSD_reader.py code.
 
 CSD_reader.py

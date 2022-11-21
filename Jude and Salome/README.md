@@ -12,8 +12,14 @@ Reads in file of MOF refcodes and outputs data about the relevent MOFs into two 
 
 mof_score_generator.ip
 
-Reads in files of the periodic table (with cost, supply risk, toxicity and radiactivity of each elements) and the compositional_data.csv to create a dataframe containning the cost ($/kg), supply risk, toxicity and radioactivity of the MOFs. It uses the chemical composition of each MOF in compositional_data.csv. It creates dictionaries that are then converted into one dataframe.
+Reads in files of the periodic table (with cost, supply risk, toxicity and radiactivity of each elements) and the compositional_data.csv to create a dataframe containning the cost ($/kg), supply risk, toxicity and radioactivity of the MOFs (saves the file as mof_score_indexed.csv). It uses the chemical composition of each MOF in compositional_data.csv. It creates dictionaries that are then converted into one dataframe.
 
 Plots.ip
 
+Reads in mof_score_indexed.csv file to plot various graphs:
+Price vs refcode, log(Price) vs refcode, Supply risk vs refcode
+log(Price) vs Supply risk, coloured according to Toxicity (a colour scale is indicated to show which MOFs are the most toxic)
+log(Price) vs Average Coordination Number, coloured according to Toxicity (a colour scale is indicated to show which MOFs are the most toxic)
+
+Produces a dataframe containing the best MOFs on these criteria (the less toxic, non-radioactive, less expensive, lower supply risk, higher coodination number)
 

@@ -23,7 +23,13 @@ Reads in mof_score_indexed.csv file to plot various graphs:
 Price vs refcode, log(Price) vs refcode, Supply risk vs refcode
 log(Price) vs Supply risk, coloured according to Toxicity (a colour scale is indicated to show which MOFs are the most toxic)
 log(Price) vs Average Coordination Number, coloured according to Toxicity (a colour scale is indicated to show which MOFs are the most toxic)
+Average Coordination Number vs Density
 Produces a dataframe containing the best MOFs on these criteria (the less toxic, non-radioactive, less expensive, lower supply risk, higher coodination number)
+
+
+#### Plotting Distributions.py
+
+Reads from mof_score_indexed.csv to generate boxplots of toxicity, radioactivity, price per kg, supply risk and density. 
 
 #### DATA folder
 

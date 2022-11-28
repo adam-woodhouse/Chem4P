@@ -1,4 +1,4 @@
-# Adam and Weronika - Pre-selection of the MOFs + Widom insertion simulations
+# Adam and Weronika - Pre-selection + Widom insertion simulations
 
 #### Non-disordered_MOF_subset.gcd
 The list of refcodes of 87929 non-disordered MOFs, obtained from CSD database.

@@ -9,6 +9,9 @@ Python script used for the pre-selection of MOFs - excluding the MOFs with a zer
 #### VOID_MOFs.gcd
 The list of refcodes of 26040 non-disordered MOFs containing an accessible void volume.
 
+#### All_windows_MOFs_xyz.zip
+Directory containing 11576 xyz files of MOFs with non-zero window sizes.
+
 #### Dictionary of all window sizes.pickle
 A pickle dictionary containing 11576 MOF refcodes and their window sizes computed during pre-selection.
 

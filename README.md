@@ -10,7 +10,7 @@ The work was split into two areas of research.
 
 ## Weronika and Adam
 
-Weronika and Adam focused on MOF selection to determine the best-performing ones for Helium adsoprption.
+Weronika and Adam focused on MOF pre-selection and Henry's coefficients' calculations to determine the best-performing structures for the selective nitrogen/methane adsorption.
 
 ## Jude and Salomé
 

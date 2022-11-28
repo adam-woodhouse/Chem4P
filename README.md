@@ -14,4 +14,4 @@ Weronika and Adam focused on MOF selection to determine the best-performing ones
 
 ## Jude and Salome
 
-Jude and Salome investigated cost, sustainability and stability of MOFs, to find the ones that were the most sustainale (non-toxic, non-radioactive, had a low supply risk), the cheapest (based on elemental cost of the MOFs) and the most stable (based on average coordination number).
+Jude and Salome investigated cost, sustainability and stability of MOFs, to find the ones that were the most sustainable (non-toxic, non-radioactive, had a low supply risk), the cheapest (based on elemental cost of the MOFs) and the most stable (based on average coordination number).

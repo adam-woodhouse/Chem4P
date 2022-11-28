@@ -4,7 +4,7 @@
 The list of refcodes of all 87929 non-disordered MOFs, obtained from CSD database.
 
 #### Preselection.ipynb
-Python script used for the pre-selection of MOFs - excluding the MOFs with a zero void volume to create the VOID_MOFs.gcd list, and then computing the window sizes for all 26040 structures contained there, excluding the ones with a zero window size, and creating three output directories: a new directory of cif files for use in further calculations, dictionary of MOF names and their window sizes, and a a text file containing the names of MOFs which returned the "Error processing message". 
+Python script used for the pre-selection of MOFs - excluding the MOFs with a zero void volume to create the VOID_MOFs.gcd list, and then computing the window sizes for all 26040 structures contained there, excluding the ones with a zero window size, and creating three output directories: a new directory of xyz files, dictionary of MOF names and their window sizes, and a a text file containing the names of MOFs which returned the "Error processing message". 
 
 #### VOID_MOFs.gcd
 The list of refcodes of all 26040 non-disordered MOFs containing an accessible void volume.

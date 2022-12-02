@@ -35,6 +35,10 @@ Reads from mof_score_indexed.csv to generate boxplots of toxicity, radioactivity
 
 Contains the output data and generated csv files used for analysis. Only the 2556 pre-selected MOFs (based of void volume for the adsorbed gas, selected by Weronika and Adam) were used for analysis.
 
+- mof_subset.gcd
+
+Refcodes of all MOF structures in CSD.
+
 - refcodes.gcd
 
 The refcodes of the 2556 pre-selected MOFs. 
